@@ -1,0 +1,5 @@
+{
+  "name": "XR Shooting Range",
+  "description": "An XR shooting game where you pinch to shoot moving targets.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "es2024",
+    "module": "es2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": false,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "importHelpers": true,
+    "paths": {
+      "rapier3d": ["./node_modules/@dimforge/rapier3d-simd-compat/rapier"],
+      "troika-three-text": [
+        "./node_modules/troika-types/packages/troika-three-text/dist/src/index"
+      ]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}
